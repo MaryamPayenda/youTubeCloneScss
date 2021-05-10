@@ -5,10 +5,21 @@
 
   font-family: "Roboto", sans-serif;
 }
-
+body,
+.header,
+.section {
+  background-color: white;
+  color: black;
+}
 .heading {
   color: gray;
   font-size: 18px;
   cursor: pointer;
   font-size: 15px;
+}
+.dark-mode,
+.header,
+.section {
+  background-color: black;
+  color: white;
 }
