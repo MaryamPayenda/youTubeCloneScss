@@ -1,0 +1,21 @@
+.Navigation {
+  width: 70%;
+  margin: 0 auto;
+  align-items: left;
+  line-height: 35px;
+  display: flex;
+  justify-content: space-between;
+  a {
+    color: #4b4949;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0px 25px 0px 10px;
+    text-decoration: none;
+    &:hover {
+      color: $bg-black;
+    }
+  }
+}
+.video-line {
+  border-bottom: $gray-color solid 2px;
+}

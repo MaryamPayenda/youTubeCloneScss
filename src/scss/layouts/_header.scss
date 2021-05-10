@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bg-white;
+}
+.menu {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hamburger {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 2rem;
+  height: 1.2rem;
+  padding-left: 25px;
+  div {
+    width: 1.3rem;
+    border: 1px rgb(138, 130, 130) solid;
+  }
+}
+.mobileName {
+  display: none;
+}
+.youtube-logo {
+  height: 40px;
+  margin-left: 0px;
+}
+.search-bar {
+  display: flex;
+  margin: 0 10rem 0 20rem;
+  width: 30rem;
+}
+.search-input {
+  width: 100%;
+  font-size: inherit;
+  border: 1px solid $bg-lightgray;
+  border-radius: 1px;
+  align-items: center;
+}
+.search-btn {
+  display: flex;
+  align-items: center;
+  padding: 0 1.25rem;
+  border: 1px solid $bg-lightgray;
+  background-color: $bg-btn;
+  cursor: pointer;
+  &:hover {
+    background-color: $bg-btn-hover;
+  }
+}
+.menu-icons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  gap: 1.52rem;
+  padding-right: 20px;
+}
+.menu-channel-icon {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+}

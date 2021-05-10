@@ -1,0 +1,47 @@
+.header-img {
+  width: 50%;
+  height: 50%;
+}
+h1 {
+  color: black;
+}
+.chanel-info {
+  height: 160px;
+  margin-top: -4px;
+  background-color: $bg-white;
+}
+.chanel-top {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 120px;
+}
+.profile-pic {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 90px;
+  width: 90px;
+}
+.chanel-top-mid {
+  width: 70%;
+  margin: 0 auto;
+  p {
+    color: $gray-color;
+  }
+}
+.chanel-top-right {
+  margin: 0 auto;
+}
+.fa-itunes-note {
+  color: black;
+  font-size: 0.5em;
+}
+.subscribe-btn {
+  background-color: $red-color;
+  color: $bg-white;
+  height: 45px;
+  width: 120px;
+  border: none;
+  border-radius: 1px;
+}

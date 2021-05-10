@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Responsive Design" />
+    <meta name="keyword" content="html,css, responsive" />
+    <meta name="author" content="Maryam Payenda" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtubes Clone</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="./font/fontawesome-free-5.15.2-web (1)/fontawesome-free-5.15.2-web/css/all.css"    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu"> 
+
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+
+      <a href="#">
+        <img
+          src="./img/YouTube-Logo.png"
+          alt="Youtube-Logo"
+          class="youtube-logo"
+      /></a>
+      <!-- <div class="mobile-Name">SelenaGomes</div> -->
+
+
+</div>
+
+      <form class="search-bar">
+        <input type="search" class="search-input" placeholder="Search" />
+        <button type="submit" class="search-btn">
+          <img src="./img/search.svg" alt="Search" />
+        </button>
+        <img src="./img/mic.svg" alt="mic" class="mic-img" />
+      </form>
+
+      
+      <input type="checkbox" name="mood" onchange="theme()" id="light-dark">
+   
+
+      <div class="menu-icons">
+          
+        <a href="#">
+          <img src="./img/create.svg" alt="create" />
+        </a>
+        
+        
+
+        <a href="#">
+          <img src="./img/apps.svg" alt="apps" />
+        </a>
+        <a href="#">
+          <img src="./img/notification.svg" alt="notification" />
+        </a>
+        <a href="#">
+          <img src="./img/mp.png" alt="profile" class="menu-channel-icon" />
+        </a>
+      </div>
+    </header>
+    <div class="main-body">
+      <!-- first part  -->
+      <div class="catagories">
+        <div class="catagories-section">
+          <span class="category">
+            <img src="./img/home.svg" alt="Home" class="icon" />
+            <span>Home</span>
+          </span>
+
+          <span class="category">
+            <img src="./img/trending.svg" alt="Trending" class="icon" />
+            <span>Trending</span>
+          </span>
+
+          <span class="category">
+            <img
+              src="./img/subscriptions.svg"
+              alt="subscriptions"
+              class="icon"
+            />
+            <span>Subscriptions</span>
+          </span>
+          <br>
+          <hr />
+        </div>
+        <!-- second part -->
+
+        <div class="catagories">
+          <div class="catagories-section">
+            <span class="category">
+              <img src="./img/library.svg" alt="library" class="icon" />
+              <span>library</span>
+            </span>
+
+            <span class="category">
+              <img src="./img/history.svg" alt="History" class="icon" />
+              <span>History</span>
+            </span>
+
+            <span class="category">
+              <img src="./img/your_videos.svg" alt="Your videos" class="icon" />
+              <span>Your videos</span>
+            </span>
+
+            <span class="category">
+              <img
+                src="./img/watch_later-.svg"
+                alt="Watch Later"
+                class="icon"
+              />
+              <span>Watch Later</span>
+            </span>
+
+            <span class="category">
+              <img src="./img/like.svg" alt="Liked Videos" class="icon" />
+              <span>Liked videos</span>
+            </span>
+          </div>
+        </div>
+        <hr />
+        <div>
+            <br>
+            <!-- third part  -->
+            <h3>SUBSCRIPTIONS</h3>
+        <div class="category" ><i class="fas fa-user-circle icon"></i> Deutch Lernen</div>
+        <div class="category"><i class="fas fa-user-circle icon"></i>CSS intro</div>
+        <div class="category"><i class="fas fa-user-circle icon"></i>Laws</div>
+        <div class="category"><i class="fas fa-user-circle icon" ></i>FreeCodeCamp</div>
+        <div class="category"><i class="fas fa-user-circle icon" ></i>Clever Programmer</div>
+        <div class="category"><i class="fas fa-user-circle icon" ></i>T-Series</div>
+        <div class="category" ><i class="fas fa-user-circle icon"></i>  Lana Blackly</div>
+        <div class="category"><i class="fas fa-user-circle icon"></i>HTML intro</div>
+        <div class="category"><i class="fas fa-user-circle icon"></i>Laws</div>
+
+        <div class="category"><i class="fas fa-chevron-down icon"></i> Show 26 more</div>
+        <hr />
+
+</div>
+    <div>
+    <br>
+    <h3>MORE FROM YOUTUBE</h3>
+    <div class="category"><i class="fab fa-youtube icon"></i>Youtube Premuim</div>
+    <div class="category"><i class="fas fa-film icon"></i>Movies and Shows</div>
+    <div class="category"><i class="fas fa-gamepad icon"></i>Gaming</div>
+    <div class="category"><i class="fas fa-broadcast-tower icon"></i> Live</div>
+    <div class="category"><i class="far fa-lightbulb icon"></i>Learning</div>
+    <div class="category"><i class="fas fa-trophy icon"></i>Sports</div>
+    
+
+    <hr />
+
+</div>
+        
+        
+      </div>
+
+      <div class="youtube_profile">
+        <div class="header_image">
+          <img src="./img/header.png" class="" />
+        </div>
+        <div class="chanel-info">
+          <div class="chanel-top">
+            <div class="chanel-top-left">
+              <div class="profile-pic">
+                <img src="./img/profile-pic.jpg" class="" />
+              </div>
+            </div>
+            <div class="chanel-top-mid">
+              <h1>Selena Gomes <i class="fab fa-itunes-note"></i></h1>
+              <p>28.4M subscribers</p>
+            </div>
+            <div class="chanel-top-right">
+              <button class="subscribe-btn">SUBSCRIBE</button>
+            </div>
+          </div>
+          <!-- navigation -->
+          <div class="Navigation">
+            <a href="#" >HOME</a>
+            <a href="#" class="video-line">VIDEOS</a>
+            <a href="#">PLAYLISTS</a>
+            <a href="#">COMMUNITY</a>
+            <a href="#">STORE</a>
+            <a href="#">CHANNELS</a>
+            <a href="#">ABOUT</a>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+    
+        </div>
+<!-- videos gallery -->
+
+
+        <div class="vidoes">
+            <section class="video-section">
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:07">
+                        <img src="./img/baila00.jpeg" alt="" class="thumbnail-img">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez - Baila Conmigo (Behind The Scenes) ft. Rauw Alejandro </a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>1M views</span> •
+                            <span> 6 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/baila01.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:23">
+                        <img src="./img/baila02.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/borken_hearts.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/baila06.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/selena01.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/ice_cream.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/lose_you01.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/baila03.jpg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="3:05">
+                        <img src="./img/baila00.jpeg" alt="" class="thumbnail-img" width="50px">
+                    </a>
+                    <div class="video-bottom-section">
+                        <!-- <a href="#">
+                            <img src="#" alt="A" class="channel-icon">
+                        </a> -->
+                        <div class="video-detail">
+                            <a href="#" class="video-title">Selena Gomez, Rauw Alejandro - Baila Conmigo (Alternate Video)</a>
+                            <!-- <a href="#" class="video-channel-name">Channel Name</a> -->
+                            <div class="video-metadata"><span>12K views</span> •
+                            <span> 1 Week Ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+      
+
+            </div>
+        </div>
+      
+    </div>
+    <script src="./scripts/index.js"></script>
+
+  </body>
+</html>
